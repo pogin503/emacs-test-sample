@@ -18,6 +18,8 @@ Emacsでテストを実行するためにサンプル
 
 ###実行
 
-$ git clone git://github.com/pogin503/emacs-test-sample.git
+```
+git clone git://github.com/pogin503/emacs-test-sample.git
 
-$ make test
+make test
+```
