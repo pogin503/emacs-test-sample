@@ -2,7 +2,6 @@
 
 UNAME:=$(shell uname -s)
 
-#多分動くと思う
 ifeq ($(UNAME),Darwin)
 EMACS=/Applications/Emacs.app/Contents/MacOS/Emacs
 else
