@@ -1,4 +1,7 @@
-;; test/run-test.el
+;;; test/run-test.el --- run-test.el
+;; This program is free software
+;;; Commentary:
+;;; Code:
 
 (message "Running tests on Emacs %s" emacs-version)
 
@@ -31,3 +34,6 @@
 (if noninteractive
     (ert-run-tests-batch-and-exit)
   (ert t))
+
+(provide 'run-test)
+;;; run-test.el ends here
